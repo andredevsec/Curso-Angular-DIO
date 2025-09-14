@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal noticia de Charming</title>
+    <link rel="stylesheet" href="styles/card.css">
+    <script src="src/CardNews.js" defer></script>
+    <script src="src/TituloDinamico.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card">
+
+            <div class="card_left">
+                <span>By André Luiz</span>
+                <a href="#">Jack Boy foi morto</a>
+                <p>Jackie Boy saiu em uma moto e foi encontrado na estrada sem vida</p>
+            </div>
+
+            <div class="card_right">
+                <img src="assets/Jax.jpg" alt="" srcset="">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <card-news 
+    autor="André" 
+    title = "Heisenberg é preso"
+    link-url = "www.google.com"
+    contet = "Heisenberg foi preso hoje em uma operação policial que desmantelou seu laboratório clandestino."
+    caminho-img = "assets/Heisenberg.jpg"
+    >
+    </card-news>
+
+    <card-news  
+    title = "Noticia Qualquer"
+    link-url = "www.google.com"
+    contet = "Qualquer noticia"
+    >
+    </card-news>
+
+    <titulo-dinamico titulo="Noticia Urgente">
+    </titulo-dinamico>
+
+</body>
+
+</html>
